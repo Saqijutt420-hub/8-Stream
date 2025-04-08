@@ -17,8 +17,8 @@ const Card = ({ media }: { media: any }) => {
           )}
           <Image
             unoptimized={true}
-            width={300}
-            height={450}
+            width={400}
+            height={550}
             src={`https://image.tmdb.org/t/p/w300${media?.poster_path}`}
             alt={"poster"}
             className="rounded-lg max-w-[170px] w-auto h-[150px] sm:h-[200px] lg:h-[250px] object-cover group-hover:scale-105 transition-all duration-200"
