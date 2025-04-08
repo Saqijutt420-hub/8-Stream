@@ -1,6 +1,6 @@
 <svg width="200" height="80" viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg">
   <text x="10" y="50" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#E50914">S</text>
   <text x="40" y="50" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#FFFFFF">FILX</text>
-  <rect x="0" y="0" width="120" height="50" fill="none" stroke="#E50914" stroke-width="5"/>
+  <rect x="35" y="0" width="120" height="50" fill="none" stroke="#E50914" stroke-width="5"/>
   <polygon points="140,20 160,40 140,60" fill="#E50914"/>
 </svg>
