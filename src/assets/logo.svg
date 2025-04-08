@@ -1,34 +1,21 @@
-<svg width="200" height="80" viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg">
+<svg width="220" height="100" viewBox="0 0 220 100" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#4285F4" />
-      <stop offset="25%" stop-color="#EA4335" />
-      <stop offset="50%" stop-color="#FBBC05" />
-      <stop offset="75%" stop-color="#34A853" />
-      <stop offset="100%" stop-color="#EA4335" />
+      <stop offset="0%" stop-color="#E50914"/>
+      <stop offset="100%" stop-color="#B00710"/>
     </linearGradient>
   </defs>
   
-  <style>
-    .letter {
-      font-family: 'Arial', sans-serif;
-      font-weight: bold;
-      font-size: 40px;
-      fill: url(#gradient);
-    }
-    .icon {
-      fill: url(#gradient);
-    }
-  </style>
+  <!-- Background box with gradient border -->
+  <rect x="5" y="5" width="180" height="70" rx="8" fill="none" stroke="url(#gradient)" stroke-width="4"/>
   
-  <!-- Abstract S icon (replaces flame) -->
-  <path class="icon" d="M20,40 Q30,20 40,40 Q50,60 60,40 Q70,20 80,40" stroke-width="0"/>
+  <!-- SFILX Text with improved spacing -->
+  <text x="20" y="55" font-family="'Montserrat', Arial, sans-serif" font-size="50" font-weight="700" fill="#E50914">S</text>
+  <text x="60" y="55" font-family="'Montserrat', Arial, sans-serif" font-size="50" font-weight="700" fill="#FFFFFF">FILX</text>
   
-  <!-- SFILX Text -->
-  <text x="90" y="50" class="letter">FILX</text>
+  <!-- Modern arrow icon -->
+  <path d="M190 50L170 30M170 70L190 50M190 50L170 50" stroke="#E50914" stroke-width="6" stroke-linecap="round" fill="none"/>
   
-  <!-- Decorative elements -->
-  <circle cx="15" cy="40" r="5" fill="#EA4335" opacity="0.8"/>
-  <circle cx="75" cy="40" r="5" fill="#34A853" opacity="0.8"/>
-  <path d="M160,30 L180,50 M180,30 L160,50" stroke="#EA4335" stroke-width="3"/>
+  <!-- Subtle glow effect -->
+  <ellipse cx="110" cy="80" rx="100" ry="10" fill="#E50914" opacity="0.1"/>
 </svg>
